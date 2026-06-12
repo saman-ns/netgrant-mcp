@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.saman-ns/netgrant",
+  "title": "NetGrant — Canadian funding",
+  "description": "Search 1,300+ live Canadian funding opportunities — grants, tax credits, wage subsidies, accelerators, competitions, and loans. Free hosted MCP server, no auth.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/saman-ns/netgrant-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.netgrant.ca/mcp"
+    }
+  ]
+}
